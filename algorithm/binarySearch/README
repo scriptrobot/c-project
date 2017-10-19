@@ -1,0 +1,30 @@
+implement binary search algorithm
+
+example:
+1:
+vector<int> vec = {1,2,3,4,5};
+int k = 1;
+int index = binarySearch(vec.begin(),vec.end(),k);
+2:
+int index = binarySearch(vec.begin(),vec.end(),k,less<int>());
+
+
+if you use custom compare method,you should define it as follows:
+//use non-member function
+bool operator<(const Node& node1,const Node& node2){
+    //
+}
+
+//use functor
+struct cmp{
+    bool operator<(const Node& node1,const Node& node2){
+        // 
+    }
+};
+
+also you should define equal method(member function)
+struct Node{
+    bool operator==(const Node& node){
+        // 
+    }
+};

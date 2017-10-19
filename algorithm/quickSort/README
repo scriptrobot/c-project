@@ -1,5 +1,11 @@
 implement quick sort algorithm
 
+example:
+1:
+vector<int> vec = {1,2,3,4};
+quickSort(vec.begin(),vec.end());
+quickSort(vec.begin(),vec,end(),less<int>());
+
 if you use custom compare method,you should define it as follows:
 
 //use non-member function
