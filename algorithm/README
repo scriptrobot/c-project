@@ -1,0 +1,15 @@
+implement quick sort algorithm
+
+if you use custom compare method,you should define it as follows:
+
+//use non-member function
+bool operator<(const Node& node1,const Node& node2){
+    //
+}
+
+//use functor
+struct cmp{
+    bool operator<(const Node& node1,const Node& node2){
+        // 
+    }
+};
