@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/*
+
 int main(){
     vector<int> vec = {1,2,3,4,5,6,7};
     int k;
@@ -11,7 +11,9 @@ int main(){
         cout<<binarySearch(vec.begin(),vec.end(),k)<<endl; 
     }
 }
-*/
+
+
+/*
 struct Node{
     int a;
     Node(){};
@@ -28,8 +30,8 @@ bool operator<(const Node& node1,const Node& node2){
 }
 
 int main(){
-   Node a[10];
-   for(int i = 0;i < 10;i++){
+   Node a[11];
+   for(int i = 0;i < 11;i++){
        a[i].a = i; 
    }
    int k;
@@ -37,3 +39,4 @@ int main(){
         cout<<binarySearch(begin(a),end(a),Node(k))<<endl; 
    }
 }
+*/

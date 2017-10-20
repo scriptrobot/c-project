@@ -1,0 +1,16 @@
+implement maxSubArray function
+find the contiguous subarray which has the largest sum
+
+there are two function:
+maxSubArray function returns the sum;
+maxSubArray_index function returns a tuple that includes the leftindex,rightindex,sum
+
+example:
+vector<int> vec = {1,2,3,-1,2,-3-4};
+maxSubArray(vec.begin(),vec.end()) -> 7
+maxSubArray_index(vec.begin(),vec,end()) -> <0,4,7>
+
+we can use get<>() to get the value of tuple
+get<0>(tuple):get the first value fo tuple
+
+
