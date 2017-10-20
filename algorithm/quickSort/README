@@ -1,5 +1,9 @@
 implement quick sort algorithm
 
+there are two functions:
+quickSort(Iterator,Iterator)
+quickSort(Iterator,Iterator,functor)
+
 example:
 1:
 vector<int> vec = {1,2,3,4};
