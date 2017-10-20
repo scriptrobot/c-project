@@ -5,7 +5,7 @@ using namespace std;
 
 
 int main(){
-    vector<int> vec = {1,2,3,4,5,6,7};
+    vector<int> vec = {1,2,3,4,5,6};
     int k;
     while(cin>>k){
         cout<<binarySearch(vec.begin(),vec.end(),k)<<endl; 
