@@ -1,0 +1,13 @@
+implete longest-common-subsequence algorithm
+find the longest common subsequence 
+
+there are two functions:
+longestCommonSubsequence_n returns the length of the longest common subsequence
+longestCommonSubsequence returns one of the longest common subsequence
+
+example:
+string str1 = "BDCABA";
+string str2 = "ABCBDAB";
+longestCommonSubsequence_n -> 4
+longestCommonSubSequence -> {'B','C','B','A'}
+
